@@ -1,0 +1,19 @@
+{
+  "name": "excel_uploader.service",
+  "version": "1.0.0",
+  "description": "excel uploader background service",
+  "license": "ISC",
+  "author": "Pankaj Rai",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "dotenv": "^17.2.1",
+    "fs-extra": "^11.3.0",
+    "xlsx": "^0.18.5"
+  }
+}

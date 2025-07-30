@@ -1,0 +1,12 @@
+# Ignore log files and logs folder
+logs/
+*.log
+
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore the excel files
+*.xlsx
